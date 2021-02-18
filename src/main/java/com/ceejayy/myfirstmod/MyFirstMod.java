@@ -25,7 +25,7 @@ public class MyFirstMod
 {
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
-    public static final String MOD_ID = "examplemod";
+    public static final String MOD_ID = "myfirstmod";
     public MyFirstMod() {
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
