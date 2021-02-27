@@ -1,6 +1,7 @@
 package com.ceejayy.myfirstmod.util;
 
 import com.ceejayy.myfirstmod.MyFirstMod;
+import com.ceejayy.myfirstmod.items.FireworkGunModel;
 import com.ceejayy.myfirstmod.items.ItemModel;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
@@ -15,6 +16,8 @@ public class RegistryHandler {
 
     // Items
     public static final RegistryObject<Item> BEER = ITEMS.register("beer", ItemModel::new);
+
+    public static final RegistryObject<Item> FIREWORKGUN = ITEMS.register("fireworkgun", FireworkGunModel::new);
 
     //Constructor / init
     public static void init(){
